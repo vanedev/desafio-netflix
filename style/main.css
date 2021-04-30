@@ -14,7 +14,7 @@
 body{
     
     background:var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'arial', Times, serif;
     color: white
 }
 
@@ -96,4 +96,8 @@ align-items: flex-start;
     height: 100%;
     width: 100%;
     display: block ;
+}
+
+.carrosel-filmes{
+    margin-top:5px
 }
