@@ -1,44 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+
     <title>Netflix Clone</title>
 </head>
+
 <body>
     <header>
         <div class="container">
-           <h2 class="logo">NETFLIX</h2> 
-           <NAV>
-               <a href="#">Iniciais</a>
-               <a href="#">Séries</a>
-               <a href="#">Filmes</a>
-               <a href="#">Documentário</a>
-           </NAV>
+            <h2 class="logo">NETFLIX</h2>
+            <NAV>
+                <a href="#">Iniciais</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentário</a>
+            </NAV>
         </div>
     </header>
 
     <main>
-<div class ="filme-principal"> 
-    <div class="container">
-<h3 class= "titulo"> RAMBO: ATÉ O FIM</h3>
-<p class= "descricao">O tempo passou para Rambo, agora ele vive recluso e trabalha em um rancho que fica na fronteira entre os Estados Unidos e o México.</P>
-    <div class= "botoes">
-        <button role="button" class="botao">
-            <i class="fas fa-play"></i>
-            ASSISTIR AGORA
-        </button>
-        <button role ="button"class="botao">
-            <i class="fas fa-info-circle"></i>
-            MAIS INFORMAÇÕES
-        </button>
-    </div>
-    </div>
-</div>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo"> RAMBO: ATÉ O FIM</h3>
+                <p class="descricao">O tempo passou para Rambo, agora ele vive recluso e trabalha em um rancho que fica
+                    na fronteira entre os Estados Unidos e o México.</P>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
     </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/min01.jpg" alt="foto01" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min02.jpg" alt="foto01" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min03.jpg" alt="foto01" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min04.jpg" alt="foto01" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min05.jpg" alt="foto01" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min06.jpg" alt="foto01" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min07.jpg" alt="foto01" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min08.jpg" alt="foto01" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min09.jpg" alt="foto01" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/min010.jpg" alt="foto01" srcset="">
+            </div>
+
+        </div>
+
+    </div>
+
 
     <script src="https://kit.fontawesome.com/92fd2d944b.js" crossorigin="anonymous"></script>
+    <script src="JS/owl/jquery.min.js"></script>
+    <script src="JS/owl/owl.carousel.min.js"></script>
+
+    <script src="JS/owl/setup.js"></script>
+
 </body>
+
 </html>
