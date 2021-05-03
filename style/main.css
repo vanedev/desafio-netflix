@@ -136,8 +136,23 @@ align-items: flex-start;
         font-size: 1.5em;
         margin-block-start: 0,3em;
     }
-  
-  
+
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: var(--vermelho);
+        color: white;
+      } 
+
+      body > footer > p > a > button{
+        background-color: #141414;
+        color: white;
+        border-radius: 0.4rem;
+        margin: 0.5rem;
+      }
+      
+      
+      
  
   
 
