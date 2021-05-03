@@ -30,7 +30,7 @@ header .logo{
     margin-left: 5px;
     color:var(--vermelho);
     font-family:"Arial black", times ;
-    font-size:40px;
+    font-size:30px;
 }
 
 header nav a{
@@ -48,7 +48,7 @@ header nav a:hover{
 font-size:16px;
 background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/capa-rambo.jpg");
 
-height: 400px;
+height: 500px;
 background-size: cover;
 
 display: flex;
@@ -80,7 +80,7 @@ align-items: flex-start;
     transition: 3s ease all;
 }
 .botao:hover{
-    background-color: white;
+    background-color:#E50914;
     color: black;
 }
 .botao i{
@@ -99,5 +99,47 @@ align-items: flex-start;
 }
 
 .carrosel-filmes{
-    margin-top:5px
+    
+   margin-top: 10px;
+    width: 100%;
+    min-height: 50%;
 }
+.carrosel-filmes01{
+    margin-top: 30px;
+    width: 100%;
+}
+.carrosel-filmes02{
+    margin-top: 30px;
+    width: 100%;
+}
+.carrosel-filmes03{
+    margin-top: 30px;
+    width: 100%;
+}
+.populares{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.90em;}
+
+    .alta{
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0,3em;}
+   
+    .minhalista{
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0,3em;}
+   
+    .series{
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0,3em;
+    }
+  
+  
+ 
+  
+
+
+ 
